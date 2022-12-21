@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>タイピングゲーム｜トップ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="explanation">
+        <div class="table_all">
+            <h1>ゲームの説明</h1>
+            <div class="text">
+                <p>このゲームは食べ物のタイピングゲームです<br></p>
+                <p>速く、正確に入力してランキング上位を目指そう！！<br><br></p>
+                <p id="blink">【a】を押すとスタートします<br></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    document.addEventListener('keydown', keypress_ivent);
+    function keypress_ivent(e) {
+        if (e.key === 'a' || e.key === 'A') {
+            //Aキーが押されたらスタート
+            window.location.href = 'game_start.html';
+        }
+        return false;
+    }
+</script>
+
+</html>

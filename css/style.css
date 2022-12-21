@@ -1,0 +1,230 @@
+body {
+    text-align: center;
+    font-size: 100%;
+    background-image: url(img/backimg.png);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.562);
+    font-family: "M PLUS Rounded 1c";
+}
+
+h1 {
+    color: rgb(251, 167, 167);
+    text-shadow: 3px 3px 2px rgb(241, 118, 138);
+    font-size: 5em;
+    font-family: "Nico Moji";
+    background-color: rgb(255, 255, 255, 0.9);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 30px;
+    outline: solid 0.5px rgb(103, 102, 102);
+
+}
+
+/* ゲーム説明 */
+.text {
+    font-size: 1.8em;
+    font-family: "M PLUS Rounded 1c";
+    margin-top: 50px;
+}
+
+/* 点滅処理 */
+#blink {
+    -webkit-animation: blink 1s ease infinite;
+    animation: blink 1.5s ease infinite;
+    background-color: rgb(247, 221, 225);
+    width: 500px;
+    margin: 0 auto;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ******************************************** */
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    /* background-color: rgb(239, 238, 238, 0.9); */
+    /* padding: 70px; */
+    /* outline: solid 0.5px rgb(103, 102, 102); */
+}
+
+.background {
+    background-color: rgb(239, 238, 238, 0.9);
+    outline: solid 0.5px rgb(103, 102, 102);
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+
+.recode {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(239, 238, 238, 0.9);
+    padding: 70px;
+    outline: solid 0.5px rgb(103, 102, 102);
+    font-size: 3em;
+}
+
+
+#clearWord {
+    color: tomato;
+    font-size: 7em;
+    font-family: "M PLUS Rounded 1c";
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.wf-roundedmplus1c {
+    font-family: "M PLUS Rounded 1c";
+}
+
+#typingWord {
+    font-size: 6em;
+    font-family: "M PLUS Rounded 1c";
+    text-align: center;
+    margin-top: 20px;
+}
+
+.endView {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7em;
+}
+
+.endView p {
+    margin: 5px;
+}
+
+#end {
+    color: tomato;
+    font-size: 2.3em;
+    margin-bottom: 10px;
+}
+
+#reset :hover {
+    opacity: 0.7;
+}
+
+#player_name {
+    width: 500px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.7em;
+    font-weight: bolder;
+    color: #545252;
+    outline: solid 0.5px rgb(103, 102, 102);
+
+}
+
+.btn-square-toy {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    background: #6195dd;
+    color: #5381c2;
+    border-radius: 4px;
+    font-weight: bold;
+    text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
+}
+
+.btn-square-toy:hover {
+    opacity: 0.7;
+}
+
+#one_more a {
+    text-decoration: none;
+    background-color: #ceb849;
+    border: 1px solid transparent;
+}
+
+/* ランキングに遷移するボタン */
+#ranking2 {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgb(187, 247, 247);
+}
+
+#ranking2 :hover {
+    opacity: 0.7;
+}
+
+/* トップ画面へ戻るボタン */
+#reset2 {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: rgb(187, 247, 247);
+    margin-top: 20px;
+}
+
+#reset2 :hover {
+    opacity: 0.7;
+}
+
+#furigaba {
+    display: block;
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+}
+
+/* ランキングの表示 */
+.table_all {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgb(239, 238, 238, 0.9);
+    padding: 70px;
+    outline: solid 0.5px rgb(103, 102, 102);
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+    margin: 0 auto;
+}
+
+table th {
+    font-size: 1.5em;
+    height: 100px;
+    border: solid 1px black;
+}
+
+table td {
+    border: solid 1px black;
+    font-size: 1em;
+    height: 50px;
+}
+
+table td {
+    font-size: 1em;
+    font-family: "M PLUS Rounded 1c";
+}
